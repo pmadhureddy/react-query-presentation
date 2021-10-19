@@ -1,0 +1,53 @@
+@import "~antd/dist/antd.css";
+
+@primary-color: #0aa679;
+
+.ant-menu-horizontal {
+  line-height: 46px;
+  border: 0;
+  border-bottom: 1px solid #f0f0f0;
+  box-shadow: none;
+}
+
+/* .ant-row {
+  background: rgb(189, 123, 123);
+  justify-content: center;
+} */
+
+/* .ant-menu {
+  background-color: rgb(189, 123, 123);
+  color: #f0f0f0;
+} */
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected {
+  color: mediumaquamarine;
+}
+
+.ant-menu-horizontal > .ant-menu-item::after {
+  border-bottom: 0px;
+}
+
+.ant-card {
+  -webkit-box-shadow: -1px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+/* .cardContainer {
+  margin-top: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+} */
+
+.ant-spin-spinning {
+  position: absolute;
+}
+.centerSpin {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
